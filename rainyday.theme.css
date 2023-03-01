@@ -1,0 +1,82 @@
+/**
+  * @name Rainy Day
+  * @author Kotuu3
+  * @version 1.0
+  * @description I really like rain
+*/
+
+:root {
+    --cmd-bg: #35495f;
+    --cmd-bg2: #3a4652;
+    --cmd-sec: #6e65f1;
+    --cmd-channel: #4ddab6;
+    --cmd-links: #da78005f;
+    --cmd-mention: #b31ec79a;
+    --cmd-scrollbar: #636261;
+    --cmd-textpri: #ffffff;
+    --cmd-home-icon: url(https://cdn.discordapp.com/attachments/1080480632813142066/1080588045071421450/RainyDay_logo.png);
+  }
+
+
+.theme-dark {
+    --header-primary: #ffffff;
+    --text-normal: var(--cmd-textpri);
+    --background-primary: var(--cmd-bg);
+    --background-secondary: var(--cmd-bg2);
+    --scrollbar-thin-thumb: var(--cmd-scrollbar);
+    --scrollbar-thin-track: hsl(var(--cmd-scrollbar)/0);
+    --scrollbar-auto-thumb: var(--cmd-scrollbar);
+    --scrollbar-auto-track: var(--cmd-scrollbar);
+    --scrollbar-auto-scrollbar-color-thumb: var(--cmd-scrollbar);
+    --channels-default: var(--cmd-channel);  
+    --chat-input-container-background: var(--cmd-sec);
+    --user-profile-header-overflow-background: var(--cmd-bg2);
+  
+}
+
+.homeIcon-r0w4ny path {
+  fill: transparent;
+}
+
+.homeIcon-r0w4ny {
+  background: var(--cmd-home-icon) center/cover no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+
+.container-1zzFcN,  
+.container-YkUktl,
+.panel-2ZFCRb,
+.activityPanel-9icbyU {
+  background-color: var(--cmd-bg2) !important;
+}
+
+.unreadRelevant-2f-VSK {
+  background-color: red;
+}
+
+.modeConnected-NrO4cP 
+.name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
+.modeSelected-3DmyhH .name-28HaxV, 
+.modeSelected-3DmyhH:hover .name-28HaxV, 
+.modeUnread-3Cxepe .name-28HaxV, 
+.modeUnread-3Cxepe:hover .name-28HaxV, 
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, 
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+  color: var(--cmd-channel);
+}
+
+.wordmarkWindows-2dq6rw svg {
+  display:none;
+}
+.wordmarkWindows-2dq6rw::after {
+  content: 'Rainy day, huh?';
+  font-family: 'Arial';
+  font-size: 10.10px;
+  font-weight: 700;
+  top:4px;
+  left: 3px;
+  position: relative;
+}
