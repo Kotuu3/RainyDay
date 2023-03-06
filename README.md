@@ -4,7 +4,7 @@ Non customizable BetterDiscord theme.
 If you don't have better discord installed check out official BetterDiscord site [BetterDiscord Installation Guide](https://docs.betterdiscord.app/users/getting-started/installation)
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1080480632813142066/1080558393573515294/image.png)
+![App Screenshot](https://cdn.discordapp.com/attachments/1080480632813142066/1082165320359346176/image.png)
 
 
 
